@@ -17,7 +17,11 @@ export default function App() {
             open-sourced on Github
           </a>{" "}
           and{" "}
-          <a href="https://tm-react-weather-app.netlify.app/" target="_blank">
+          <a
+            href="https://tm-react-weather-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             hosted on Netlify
           </a>
         </footer>
