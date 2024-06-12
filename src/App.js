@@ -2,12 +2,11 @@ import React from "react";
 import "./App.css";
 import Weather from "./Weather";
 
-
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="London"/>
+        <Weather defaultCity="London" />
         <footer>
           This project was coded by Taryn Mitchell and is{" "}
           <a
@@ -16,6 +15,10 @@ export default function App() {
             rel="noopener noreferrer"
           >
             open-sourced on Github
+          </a>{" "}
+          and{" "}
+          <a href="https://tm-react-weather-app.netlify.app/" target="_blank">
+            hosted on Netlify
           </a>
         </footer>
       </div>
